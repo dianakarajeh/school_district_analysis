@@ -15,4 +15,12 @@ Perform a reanalysis of PyCity Schools reading and math scores for ninth graders
 #### <img width="986" alt="Screen Shot 2022-03-20 at 7 06 21 PM" src="https://user-images.githubusercontent.com/99656224/159190699-841ba375-ea56-4885-9c67-0d931a6ebdf7.png">
 #### - Percent of students passing math, passing reading, and overall passing ALL _decreased_ after reanalysis was done to account for the academic dishonesty.  Although Thomas High School is still in the top five, they seemingly fell in terms of performance in both categories.
 #### - Replacing the ninth-grade scores ended up affecting more than just the district and school summary.
-#### - 
+#### - The ninth-grade scores for math went from 83.590022 to NaN and reading scores went from 83.728850 to NaN.  This alters the data as these numbers are now taken out of the dataset and do not play a role in the overall scores of ninth grade.
+#### - Since Thomas High School falls within the 630-645 spending bin, those values were altered. Before analysis is seen below:
+#### <img width="848" alt="Screen Shot 2022-03-20 at 7 48 51 PM" src="https://user-images.githubusercontent.com/99656224/159191391-145a7965-4df6-4d63-b58d-1693d883286a.png">
+#### - After reanalysis is done of spending scores is seen below:
+#### <img width="829" alt="Screen Shot 2022-03-20 at 7 49 12 PM" src="https://user-images.githubusercontent.com/99656224/159191407-bf5cf60b-6e9b-4949-aa55-e34da0c9f6c8.png">
+#### - Thomas High Schools falls under the large school Category, but even after the reanalysis was done there were no changes in scores of average math and reading scores.  Before and after the reanalysis, average math and reading scores for a large school size were both 77.7 and 81.3 respectively.
+#### - Depending on whether or not the schools were charter or district schools, charter type changed values because Thomas High School is a charter school.
+## Summary
+#### The changes that were observed after reanalyzing the data were the school type values, ranking of Thomas High School, school summary, and overall passing rate for the entire high school.
